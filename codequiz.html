@@ -8,10 +8,7 @@
       href="https://fonts.googleapis.com/css?family=Amatic+SC:700|Josefin+Sans&display=swap"
       rel="stylesheet"
     />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="./style.css" />
     <title>Quiz</title>
   </head>
@@ -23,6 +20,15 @@
     <h2 class="time"></h2>
     <div class="maintime"></div>
 
+    <div class="container">
+      <button type="button" class="btn btn-primary" class="startbutton">Start Quiz</button>
+      <button type="button" class="btn btn-primary" class="answerbutton"></button>  
+      <button type="button" class="btn btn-primary" class="submitbutton">Submit</button>      
+    </div>
+
+    <div class="results"></div>
+
+    <div id="quiz"></div>
 
 
     <script src="./script.js"></script>

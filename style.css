@@ -6,7 +6,12 @@ body {
 }
 
 header {
+  padding: 25px;
   text-align: center;
   color:black;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+  text-align: center;
 }
