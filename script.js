@@ -29,16 +29,31 @@ var startBtn = document.querySelector(".startbutton")
 var submitBtn = document.querySelector(".submitbutton")
 var answerBtn = document.querySelector(".answerbutton")
 var resultsDiv = document.querySelector(".results")
+var button = document.createElement("button")
 
 // Create functions
 
 function buildquiz(){
-
-
+  const output = []
+  myQuestions.forEach(
+    (currentQuestion, questionNumber) =>{
+      const answers = []
+      for(letter in currentQuestion.answers){
+        answers.push(
+          //create an event listener here instead
+            ${currentQuestion.answers[letter]}
+        );
+      }
+    }
+  )
 }
+output.push(
+  `<div class="question"> ${currentQuestion.question} </div>
+  <div class="answers"> ${answers.join('')} </div>`
+);
+quizContainer.innerHTML = output.join('');
 
 function showResults(){
-
 
 }
 
